@@ -4,7 +4,7 @@ Bellman - Ford Shortest Path
 BellmanFord Shortest Path algorithm implementation in java.
 
 The Bellman–Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all of the other
-vertices in aweighted digraph.It is slower than Dijkstra's algorithm for the same problem, but more versatile, as it is
+vertices in a weighted digraph.It is slower than Dijkstra's algorithm for the same problem, but more versatile, as it is
 capable of handling graphs in which some of the edge weights are negative numbers. The algorithm is usually named after
 two of its developers, Richard Bellman andLester Ford, Jr., who published it in 1958 and 1956, respectively.
 
