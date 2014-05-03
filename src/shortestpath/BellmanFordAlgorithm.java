@@ -25,14 +25,7 @@ public class BellmanFordAlgorithm {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		BellmanFordAlgorithm bellmanford=new BellmanFordAlgorithm();
-		bellmanford.constructGraph();
-		bellmanford.findBellmanFordShortestPath();
-		
-		for(int i=1;i<=noOfVertices;i++)
-		{
-			System.out.println("Distance for "+i+" is "+d[i] );
-		}
+		new BellmanFordAlgorithm().findShortestPath();
 	}
 	
 	public void constructGraph()
@@ -61,7 +54,7 @@ public class BellmanFordAlgorithm {
 			}
 			break;
 		}
-		graph.printGraph();
+		//graph.printGraph();
 
 	}
 
@@ -150,6 +143,17 @@ public class BellmanFordAlgorithm {
 		}
 		
 		return true;
+	}
+	
+	public void findShortestPath()
+	{
+		constructGraph();
+		findBellmanFordShortestPath();
+		
+		for(int i=1;i<=noOfVertices;i++)
+		{
+			System.out.println("Distance for "+i+" is "+d[i] );
+		}
 	}
 
 }
