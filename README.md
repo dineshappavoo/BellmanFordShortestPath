@@ -27,7 +27,7 @@ following code snippet shows how to get the shortest path,
 	1 3 3
 
 First integer is the total number of vertices |V| in the graph G. The next integer is the number of edges |E| in the graph.
-Next |E| linesh has the edges information (u, v, w). All inputs must be given through terminal.
+Next |E| lines has the edges information (u, v, w). All inputs must be given through terminal.
 
 ###Output
 	 Distance for 1 is 0
