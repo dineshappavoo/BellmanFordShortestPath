@@ -1,4 +1,4 @@
-BellmanFordShortestPath
+Bellman - Ford Shortest Path 
 =======================
 
 BellmanFord Shortest Path algorithm implementation in java.
@@ -9,8 +9,8 @@ capable of handling graphs in which some of the edge weights are negative number
 two of its developers, Richard Bellman andLester Ford, Jr., who published it in 1958 and 1956, respectively.
 
 ##Complexity
-  Worst case performance  O (|V| |E|)
-  Worst case space complexity O (|V|)
+	  Worst case performance  O (|V| |E|)
+	  Worst case space complexity O (|V|)
 
 ##Functionality
 
@@ -18,21 +18,21 @@ This library has the implementaion of Bellamn Ford algorithm to find the shortes
 following code snippet shows how to get the shortest path,
 
     BellmanFordAlgorithm belmanFord=new BellmanFordAlgorithm();
-		belmanFord.findShortestPath();
+    bellmanFord.findShortestPath();
 
-#Input
-3 3
-1 2 1
-2 3 2
-1 3 3
+###Input
+	3 3
+	1 2 1
+	2 3 2
+	1 3 3
 
 First integer is the total number of vertices |V| in the graph G. The next integer is the number of edges |E| in the graph.
-Next |E| linesh has the edges information (u, v, w) 
+Next |E| linesh has the edges information (u, v, w). All inputs must be given through terminal.
 
-#Output
-  Distance for 1 is 0
-  Distance for 2 is 1
-  Distance for 3 is 3
+###Output
+	 Distance for 1 is 0
+	 Distance for 2 is 1
+	 Distance for 3 is 3
   
 ##Project Contributor
 
