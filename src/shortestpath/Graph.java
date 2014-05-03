@@ -3,7 +3,7 @@ package shortestpath;
 import java.util.ArrayList;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class Graph<T extends Comparable<T>>{
@@ -92,8 +92,10 @@ public class Graph<T extends Comparable<T>>{
 		{
 			edgeList=adjacencyList[i];
 			if(edgeList!=null)
+			{
 			for(Edge e : edgeList)
 				System.out.println("u : "+e.u+" v : "+e.v+" w : "+e.w);
+			}
 		}
 	}
 	/**
