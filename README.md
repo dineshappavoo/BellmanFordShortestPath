@@ -17,7 +17,7 @@ two of its developers, Richard Bellman andLester Ford, Jr., who published it in 
 This library has the implementaion of Bellamn Ford algorithm to find the shortest path in a directed graph G=[V,E].The 
 following code snippet shows how to get the shortest path,
 
-    BellmanFordAlgorithm belmanFord=new BellmanFordAlgorithm();
+    BellmanFordAlgorithm bellmanFord=new BellmanFordAlgorithm();
     bellmanFord.findShortestPath();
 
 ###Input
