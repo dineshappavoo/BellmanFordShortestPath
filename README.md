@@ -12,10 +12,10 @@ two of its developers, Richard Bellman andLester Ford, Jr., who published it in 
 	  Worst case performance  O (|V| |E|)
 	  Worst case space complexity O (|V|)
 
-##Functionality
+##Install
 
-This library has the implementaion of Bellamn Ford algorithm to find the shortest path in a directed graph G=[V,E].The 
-following code snippet shows how to get the shortest path,
+This library has the implementaion of Bellamn Ford algorithm to find the shortest path in a directed graph 
+G=[V,E].The following code snippet shows how to get the shortest path,
 
     BellmanFordAlgorithm bellmanFord=new BellmanFordAlgorithm();
     bellmanFord.findShortestPath();
