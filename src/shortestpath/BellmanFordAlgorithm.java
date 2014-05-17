@@ -28,6 +28,9 @@ public class BellmanFordAlgorithm {
 		new BellmanFordAlgorithm().findShortestPath();
 	}
 	
+	/**
+	 * Method to construct the graph using adjacency list
+	 */
 	public void constructGraph()
 	{
 		
@@ -145,6 +148,10 @@ public class BellmanFordAlgorithm {
 		return true;
 	}
 	
+	/**
+	 * 
+	 * Method to find the shortest path
+	 */
 	public void findShortestPath()
 	{
 		constructGraph();
